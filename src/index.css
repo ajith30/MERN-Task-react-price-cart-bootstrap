@@ -1,0 +1,54 @@
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+hr {
+  margin: 1.5rem 0;
+}
+
+.card-price {
+  font-size: 3rem;
+}
+
+.card-month {
+  font-size: 0.8rem;
+}
+
+ul li {
+  margin: 0 0 1rem 0;
+}
+
+.text-muted {
+  opacity: 0.7;
+}
+
+.btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+@media (min-width: 992px) {
+   .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+   .card:hover .btn {
+    opacity: 1;
+  }
+}
